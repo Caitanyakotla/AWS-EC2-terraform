@@ -12,6 +12,6 @@ resource "aws_instance" "myec2" {
   tags = {
     Name        = "var.instance_name"
     Department  = "Cloud-Devops"
-    Environment = "dev"
+    Environment = "test"
   }
 }
